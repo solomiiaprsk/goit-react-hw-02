@@ -2,7 +2,7 @@ import css from "./Options.module.css";
 
 function Options({ updateFeedback, handleReset, total }) {
   return (
-    <>
+    <div className={css.container}>
       <button
         type="button"
         className={css.btn}
@@ -29,7 +29,7 @@ function Options({ updateFeedback, handleReset, total }) {
           Reset
         </button>
       )}
-    </>
+    </div>
   );
 }
 
